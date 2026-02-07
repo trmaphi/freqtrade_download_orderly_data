@@ -2,10 +2,10 @@ name: Squash Git History
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["report data content"]
-    types:
-      - completed
+  # workflow_run:
+  #   workflows: ["report data content"]
+  #   types:
+  #     - completed
 
 
 jobs:
